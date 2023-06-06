@@ -1,0 +1,27 @@
+header{
+    position: relative;
+}
+h1{
+    color: aqua;
+    text-align: center;
+}
+h5{
+    position: absolute;
+    top: 50%;
+    left: 795px;
+    text-align: left;
+}
+p{
+    font-weight: bold;
+}
+.kotak p{
+    background-color: grey;
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
